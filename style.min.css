@@ -1,1 +1,1 @@
-.layer1{background-color:#ddd;height:250px;position:relative;left:50px;top:100px}.layer2{background-color:#37809c;height:60px;width:60px;display:flex;justify-content:center;align-items:center}/*# sourceMappingURL=style.min.css.map */
+body{margin:0}.parent{background-color:#4d74c9;height:100vh;padding:10px;font-size:20px}.child-one{background-color:#4ece78;margin-left:15px}.child-two{background-color:#7735b4}.child-three{background-color:#8b1da1}/*# sourceMappingURL=style.min.css.map */
