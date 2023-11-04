@@ -1,7 +1,10 @@
 
-body
-    margin: 0
+*
+    box-sizing: border-box
 
+body
+    margin: 0    
+// Example 1
 // .layer1
 //     background-color: #ddd   
 //     height: 250px 
@@ -27,25 +30,52 @@ body
 //     right: 100px
 //     bottom: 100px
 
-.parent 
-    background-color: #4d74c9
-    height: 100vh  
-    padding: 10px
+// Example 2
+// .parent 
+//     background-color: #4d74c9
+//     height: 100vh  
+//     padding: 10px
+//     font-size: 20px
+
+// .child
+//     &-one
+//         background-color: #4ece78    
+//         position: relative
+//         top: 10px
+//         //margin-left: 15px
+//     &-two
+//         background-color: #7735b4
+//         position: relative
+//         z-index: 1
+//     &-three
+//         background-color: #8b1da1
+
+// Example 3
+
+.menu 
+    display: flex
+    justify-content: center
+    background-color: #bd8fd3
+    position: fixed
+    width: 100%
+    ul
+        width: 20vw
+        display: flex
+        justify-content: space-around
+        list-style: none
+        li
+            background-color: #e6e6e6
+            padding: 8px
+            border-radius: 10px
+
+.content
+    padding-top: 150px
+    margin: 0 auto
+    max-width: 600px
     font-size: 20px
 
-.child
-    &-one
-        background-color: #4ece78    
-        // position: relative
-        // left: 15px
-        margin-left: 15px
-    &-two
-        background-color: #7735b4
-    &-three
-        background-color: #8b1da1
-
-
-
+    
+    
 
 
 
